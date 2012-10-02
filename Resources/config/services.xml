@@ -5,13 +5,13 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="pombai_mail_chimp.service.class">Pombai\MailChimpBundle\Service\MailChimp</parameter>
+        <parameter key="pombai_mail_chimp.service.class">\MCAPI</parameter>
     </parameters>
 
     <services>
         <service id="pombai_mail_chimp.service" class="%pombai_mail_chimp.service.class%">
-            <argument>%pombai_mail_chimp.listId%</argument>
             <argument>%pombai_mail_chimp.apiKey%</argument>
+            <argument>%pombai_mail_chimp.secure%</argument>
         </service>
     </services>
 </container>

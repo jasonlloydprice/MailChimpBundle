@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-0": { "Pombai\\MailChimpBundle": "" },
-        "files": ["Pombai/MailChimpBundle/src/PombaiMailChimp.php"]
+        "files": ["Pombai/MailChimpBundle/src/MCAPI.class.php"]
     },
     "target-dir": "Pombai/MailChimpBundle"
 }
