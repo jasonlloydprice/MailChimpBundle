@@ -11,7 +11,6 @@
     <services>
         <service id="pombai_mail_chimp.service" class="%pombai_mail_chimp.service.class%">
             <argument>%pombai_mail_chimp.apiKey%</argument>
-            <argument>%pombai_mail_chimp.secure%</argument>
         </service>
     </services>
 </container>
