@@ -22,7 +22,6 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->scalarNode('listId')->defaultNull()->end()
                 ->scalarNode('apiKey')->defaultNull()->end()
             ->end()
         ;

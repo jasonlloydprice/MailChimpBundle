@@ -23,7 +23,6 @@ class PombaiMailChimpExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $container->setParameter('pombai_mail_chimp.apiKey', $config['apiKey']);
-        $container->setParameter('pombai_mail_chimp.secure', $config['secure']);
 
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
